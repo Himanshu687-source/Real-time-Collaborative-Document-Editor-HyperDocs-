@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: collaborative-doc-editor
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
